@@ -1,0 +1,36 @@
+.wrapper {
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+}
+
+.checkin_yes {
+    background-color: #000;
+}
+
+.checkin_no, .checkin_yes {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    background-clip: content-box;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.redbox, .greenbox {
+    padding: 4px 12px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.greenbox {
+    background-color: #D7F7BC;
+}
+
+
+.redbox {
+    background-color: #F8DED5;
+}
